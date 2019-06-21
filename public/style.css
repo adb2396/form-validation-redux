@@ -1,0 +1,26 @@
+.app {
+    display: flex;
+    justify-content: space-between;
+}
+
+.create {
+    width: 25%;
+    margin-top: 1%;
+    margin-left: 1%;
+    border: 1px solid black;
+    padding: 25px;
+    max-height: 750px;
+}
+
+.list {
+    width: 25%;
+    margin-top: 1%;
+    margin-right: 1%;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+.delete {
+    width: 100%;
+    background-color: #cccccc;
+}

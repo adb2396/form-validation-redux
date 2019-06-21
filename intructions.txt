@@ -1,0 +1,28 @@
+
+Hi Akshay,
+
+It was nice speaking with you today. Can you do this two task? 
+
+***** 
+Task 1: Simple CURD: create update read delete operation 
+
+Create student FORM using bootstrap with proper front-end validation and store data in redux. 
+There are 3 screens create, update and list. there should be delete button to select 
+multiple records from List screen and delete in bulk. 
+
+After complete, this task creates GitHub repo. and email us 
+
+validation : 
+1> All fields are mandatory. 
+2> match password and retype password 
+3> unique email validation 
+2> select a minimum of two hobby 
+
+field: 
+
+1> email [text field] 
+2> password [password field] 
+3> retype password [password field] 
+4> gender [radio button] 
+5> hobby [checkbox] 
+6> Country [dropdown] 

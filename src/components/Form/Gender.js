@@ -6,8 +6,9 @@ const Gender = (props) => {
             <p>Gender</p>
             <div className="form-check">
                 <input 
-                    name="gender"
+                    id="male"
                     value="male"
+                    name="gender"
                     type="radio" 
                     checked={props.gender === "male" }
                     onChange={ (event) => props.handleChange(event) }
@@ -17,8 +18,9 @@ const Gender = (props) => {
             </div>
             <div className="form-check">
                 <input 
-                    name="gender"
+                    id="female"
                     value="female"
+                    name="gender"
                     type="radio" 
                     checked={props.gender === "female" }
                     onChange={ (event) => props.handleChange(event) }

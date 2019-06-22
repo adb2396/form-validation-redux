@@ -5,7 +5,7 @@ const Country = (props) => {
         <div className="country-block">
             <label>Contry</label>
             <select 
-                value={props.value}
+                id="country"
                 onChange={ (event) => props.handleChange(event) }
                 name="country"
                 className="custom-select"

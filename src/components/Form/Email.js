@@ -5,6 +5,7 @@ const Email = (props) => {
         <div className="form-group">
             <label>Email address</label>
             <input 
+                id="email"
                 type="email"
                 name="email"
                 onChange={props.handleChange} 

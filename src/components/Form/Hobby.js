@@ -6,6 +6,7 @@ const Hobby = (props) => {
             <p>Hobby</p>
             <div className="form-check">
                 <input 
+                    id="reading"
                     name="isReading"
                     value="Reading"
                     type="checkbox"
@@ -17,6 +18,7 @@ const Hobby = (props) => {
             </div>
             <div className="form-check">
                 <input 
+                    id="playing"
                     name="isPlaying"
                     value="Playing"
                     type="checkbox" 
@@ -28,6 +30,7 @@ const Hobby = (props) => {
             </div>
             <div className="form-check">
                 <input 
+                    id="drawing"
                     name="isDrawing"
                     value="Drawing"
                     type="checkbox" 

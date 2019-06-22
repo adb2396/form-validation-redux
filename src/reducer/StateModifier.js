@@ -51,7 +51,7 @@ const DeleteUsers = (state, delUsers) => {
             }
         }
     }
-    console.log(newArr);
+    //console.log(newArr);
 
     return newArr;
 }

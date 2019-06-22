@@ -6,6 +6,7 @@ const Password = (props) => {
             <div className="form-group">
                 <label>Password</label>
                 <input 
+                    id="password"
                     name="password"
                     type="password" 
                     className="form-control" 
@@ -16,6 +17,7 @@ const Password = (props) => {
             <div className="form-group">
                 <label>Retype password</label>
                 <input 
+                    id="retypePassword"
                     name="retypePassword"
                     type="password" 
                     className="form-control" 

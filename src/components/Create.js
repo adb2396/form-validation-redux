@@ -121,8 +121,7 @@ class Create extends React.Component {
 
     handleUpdate = () => {
         const Update_email = this.refs.email_update.value;
-
-        console.log( this.props.Users );
+        let p=0;
 
         if( this.emailIsValid(Update_email) && this.props.Users.length > 0) {
             this.props.Users.forEach( user => {
@@ -145,12 +144,11 @@ class Create extends React.Component {
                     document.getElementById('retypePassword').value = user.retypePassword;
                     document.getElementById('country').value = user.country;
  
-                    this.props.deleteUser([user.email]);
+                    this.props.deleteUser([user.email]); p=1;
                 } 
-                else {
-                    alert("User not found..!!");
-                }
             });
+            
+            if(p===0) alert("User not found..!!");
         } 
         else {
             if( this.props.Users.length === 0 ) alert("No user to display.");
